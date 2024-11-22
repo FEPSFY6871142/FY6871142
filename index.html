@@ -154,10 +154,10 @@
     }
     function displayTotalWordCount() {
      const IntroductionCount = displayWordCount("Introduction")
-     const AbstractCount = displayWordCount("Abstract")
+     
      const AnalysisCount = displayWordCount("Analysis and Discussion")
      
-     const totalWordCount = IntroductionCount + AbstractCount + AnalysisCount;
+     const totalWordCount = IntroductionCount + AnalysisCount;
      document.getElementById("totalWordCount").innerText = `Toal word count: ${totalWordCount}`;
     }
     window.onload = displaytotalWordCount;
